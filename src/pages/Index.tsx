@@ -5,7 +5,7 @@ import Bounties from "@/components/Bounties";
 import Rewards from "@/components/Rewards";
 import Achievements from "@/components/Achievements";
 import ConnectedAccounts from "@/components/ConnectedAccounts";
-import ProfileSidebar from "@/components/ProfileSidebar";
+import Profile from "@/components/Profile";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -27,7 +27,7 @@ const Index = () => {
 
           {/* Sidebar */}
           <div className="lg:col-span-1">
-            <ProfileSidebar />
+            <Profile />
           </div>
         </div>
       </div>
